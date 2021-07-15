@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+}
+#pic1 {
+    width: 150px;
+    border-radius: 50%;
+    border-color: black;
+    border-width: thin;   
+}
+h1 {
+    color: chartreuse;
+    font-size: 25px;
+}
+h2 {
+    color: chartreuse;
+    font-size: 25px;
+}
+#Home {
+    text-align: center;
+    background:linear-gradient(#bdbce0 0%, #342ee8 100%);
+}
+.line {
+    width: 70px;
+    height: 6px;
+    background-color: darkorange;
+    margin: 8px auto;
+}
+#info {
+    padding: 20px;
+    font-size: 19px; 
+    background-color: darksalmon;
+}
+.menusection {
+    font-family: cursive;
+    float: right;
+    cursor: pointer;
+    color: black;
+    top: 0px;
+    position: fixed;
+    left: 290px;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0px;
+    list-style: none;
+}
+.link {
+    display: inline; 
+    color: darkkhaki;
+    font-size: 17px;
+}
+.link:hover {
+    background-color: firebrick;
+    font-size: 20px;
+}
+html {
+    scroll-behavior: smooth;
+}
+#reviews {
+    background-color: burlywood;
+    color: aqua;
+    font-size: 17px;
+}
+#MyWork {
+    background-color: forestgreen;
+    color: antiquewhite;
+    font-size: 17px;
+}
+#MyInspiration {
+    font-size: 18px;
+    background:linear-gradient(#bdbce0 0%, #342ee8 100%);
+    color: aquamarine;
+}
+#Contact {
+    background:linear-gradient(#bdbce0 0%, #342ee8 100%);
+}
+.contact_1 a {
+color: burlywood;
+text-shadow: 1px 1px darkseagreen;
+}
+.contact_1 h3 {
+    display: inline;
+}
+#contact iframe {
+    width: 100%;
